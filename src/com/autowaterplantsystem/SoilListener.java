@@ -12,7 +12,7 @@ public class SoilListener {
 
     Timer timer = new Timer();
     Pump pump;
-    PopClient popClient = new PopClient();
+
 
     public SoilListener() throws InterruptedException {
         System.out.println("POWER ON - " +timer.getDateTime());
@@ -43,7 +43,7 @@ public class SoilListener {
 
                 System.out.println("soil is dry!");
                 System.out.println("preparing to enable pump.");
-                popClient.sendMail();
+
 
                 tenSecondPump();
 
