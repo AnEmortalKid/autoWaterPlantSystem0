@@ -16,3 +16,5 @@ Any help here would be awesome.
 
 
 Also, I'm using java 1.8 and the email service isn't working for me.
+
+If you'd like to test it out it should run if you just go from main it's set to run soilListener(); which runs in a loop. I removed the popclient so if it's not working its because github hasn't updated it yet and just remove the popclient from the soilListener class and it should run fine. I used Java 1.8 by the way. If it doesn't work for you this may be way.
