@@ -1,5 +1,6 @@
 package com.autowaterplantsystem;
 
+import java.io.IOException;
 import java.sql.SQLOutput;
 import java.sql.Time;
 import java.util.concurrent.TimeUnit;
@@ -21,7 +22,7 @@ public class SoilListener {
         System.out.println("");
     }
 
-    public void listenForSignal() throws InterruptedException {
+    public void listenForSignal() throws InterruptedException, IOException {
 
         while (true){
             System.out.println("");
@@ -70,7 +71,7 @@ public class SoilListener {
 
     }
 
-    private void tenSecondPump() throws InterruptedException, NullPointerException {
+    private void tenSecondPump() throws InterruptedException, NullPointerException, IOException {
 
         Pump.turnOn();
         timer.setTimerSeconds(10);
