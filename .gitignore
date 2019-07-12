@@ -1,0 +1,3 @@
+# don't source control intellij generated files
+.idea/
+*.iml
