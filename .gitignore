@@ -1,3 +1,6 @@
 # don't source control intellij generated files
 .idea/
 *.iml
+
+# maven generated files
+target/
